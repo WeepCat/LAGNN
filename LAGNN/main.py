@@ -36,7 +36,7 @@ parser.add_argument('--choose_weight_layernum', type=int, default=2,
                     help='the number of weight layer.')
 parser.add_argument('--hidden', type=int, default=16,
                     help='Number of hidden units.')
-parser.add_argument('--dropout', type=float, default=0.75,
+parser.add_argument('--dropout', type=float, default=0.75, 
                     help='Dropout rate (1 - keep probability).')
 parser.add_argument('--weight_decay', type=float, default=5e-4,
                     help='Weight decay (L2 loss on parameters).')

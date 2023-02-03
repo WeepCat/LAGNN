@@ -91,7 +91,7 @@ class MDCG(Module):
         node_choose = None
         # stage1:
         if stage1_flag:
-            output = input + layer_dropout * output
+            output = input + output
         # stage2:
         else:
             choose_input = input
