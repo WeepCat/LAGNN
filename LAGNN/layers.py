@@ -111,7 +111,7 @@ class MDCG(Module):
                 gpu = lambda x: x.to(dev)
             node_lastlayer = gpu(node_lastlayer)
             node_choose = node_lastlayer * node_choose.view([-1, 1])
-            output = input + layer_dropout * output
+            output = input + output
         return output, node_choose
 
     def __repr__(self):
