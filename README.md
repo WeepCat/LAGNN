@@ -32,3 +32,13 @@ code for LAGNN
 ~~~
 python ./LAGNN/train.py 
 ~~~
+
+## Reference
+```
+@inproceedings{xu2023towards,
+  title={Towards deeper graph neural networks via layer-adaptive},
+  author={Xu, Bingbing and Xie, Bin and Shen, Huawei},
+  booktitle={Companion Proceedings of the ACM Web Conference 2023},
+  pages={103--106},
+  year={2023}
+}
